@@ -1,0 +1,106 @@
+/* Styles for De Stijl wireframe */
+
+.indexImage {
+	background-image: url("pictures/destijl.jpg");
+	background-repeat: no-repeat; 
+	margin: 0;
+	padding: 0;
+}
+
+.headerImage {
+	background-image: url("pictures/destijl-header.jpg");
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	margin:0;
+	padding:0;
+	position: relative;
+}
+
+body {
+	margin:0;
+	padding:0;
+}
+
+header a {
+	text-decoration: none;
+	color: black;
+}
+
+.stijl {
+	position: relative;
+	top: .75em;
+}
+
+
+h1 {
+	margin-left: 3.06em;
+	font-family: 'Abadi MT Condensed Extra Bold';
+	font-size: 6em;
+	position: relative;
+	top: 0.08em;
+}
+
+nav ul {
+	font-family: 'Abadi MT Condensed Extra Bold';
+	font-size: 4em;
+	margin-left: 14.65em;
+/* 
+	margin-left: 15.25em;
+ */
+	margin-top: 3.25em;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.navClass {
+	padding: 0.01em;
+}
+
+.indexClass {
+	margin-left: 2.75em;
+}
+
+.red:hover {
+	color: red;
+}
+
+.blue:hover {
+	color: blue;
+}
+
+.mainContainer {
+	margin-left: -57em;
+}
+
+.constrainedClass {
+	margin-top: -5em;
+	margin-left: 17em;
+/* 
+	margin-bottom: 4.20em;
+ */
+	padding: 1em;
+}
+
+.constrainedClass img {
+	width: 20em;
+	margin: 4em;
+}
+
+footer {
+	background-color: black;
+	text-align: right;
+	margin: 0;
+	padding: 2em;
+}
+
+.social {
+	width: 1.75em;
+	margin: 0.75em;
+}
+
+ 
+ 
