@@ -10,6 +10,7 @@
 .headerImage {
 	background-image: url("pictures/destijl-header.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
 	margin: 0;
 	padding: 0;
 }
@@ -32,26 +33,21 @@ header a {
 
 .stijl {
 	position: relative;
-	top: .75em;
 }
 
-
 h1 {
-	margin-left: 3.06em;
 	font-family: 'Abadi MT Condensed Extra Bold';
 	font-size: 6em;
 	position: relative;
 	top: 0.08em;
+	width: 100%;
+	max-width: 900px;
+	margin: auto;
 }
 
 nav ul {
 	font-family: 'Abadi MT Condensed Extra Bold';
 	font-size: 4em;
-	margin-left: 14.65em;
-/* 
-	margin-left: 15.25em;
- */
-	margin-top: 3.25em;
 	list-style-type: none;
 	text-decoration: none;
 }
@@ -73,21 +69,39 @@ nav ul {
 }
 
 .mainContainer {
-	margin-left: -57em;
+	width: 100%;
+	max-width: 900px;
+	margin: auto;
 }
 
 .constrainedClass {
 	margin-top: -5em;
-	margin-left: 17em;
-/* 
-	margin-bottom: 4.20em;
- */
 	padding: 1em;
 }
 
 .constrainedClass img {
 	width: 20em;
 	margin: 4em;
+}
+
+p {
+	font-family: 'Abadi MT Condensed Extra Bold';
+	text-align: left;
+	font-size: 1.5em;
+	text-indent: 2em;
+	color: red;
+}
+
+.aboutContainer {
+	max-width: 50em;
+	width: 90%;
+	margin: auto;
+}
+
+.gif {
+	width: 50%;
+	max-width: 600px;
+	margin: auto;
 }
 
 footer {
@@ -101,6 +115,14 @@ footer {
 	width: 1.75em;
 	margin: 0.75em;
 }
+
+ /* Specific Screen Size*/
+ 
+/* 
+@media only screen and (max-width: 320px) {
+
+}
+ */
 
  
  
